@@ -20,6 +20,8 @@ Once it's done, you'd see `"status": "succeeded"`
 5. Replace `<Model>` in bot.py with the actual model ID
 6. Run the script or host the wsgi server somewhere nice!
 
+`gunicorn api.app:app`
+
 
 ## Wishlist
 - I want to use websockets
